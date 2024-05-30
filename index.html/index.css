@@ -1,0 +1,456 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow-x: none; */
+}
+.top_strip_wrapper{
+    /* border: solid red; */
+    width: 100%;
+    background-color: #f998bd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 42px;
+}
+.left-message{
+    font-size: 16px;
+    font-weight: 550 ;
+    font-family: 'Inter', sans-serif !important;
+}
+.right-message  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.right-message_img_p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.right-message ul img{
+    width: 25px;
+    height: 25px;
+}
+.p_line{
+    font-size: 17px;
+}
+
+/* Navbar */
+
+.bag{
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 80px;
+}
+.Nykaa_Logo_ul{
+    /* border: solid blue; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center; 
+    gap: 25px; 
+    height: 80px;
+}
+.NykaaLogo{
+    width: 90px;
+}
+.NykaaLogo:hover{
+    cursor: pointer;
+}
+.bag_list ul{
+    /* border: solid green; */
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif !important;
+    padding: 0;
+}
+.bag_list ul li:hover{
+    cursor: pointer;
+    color: #f4307b;
+}
+.search_input{
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    background: rgba(151, 151, 151, 0.1);
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    border-radius: 3px;
+}
+.search_input:hover{
+    border: 1px solid #f4307b;
+}
+.search_button{
+    width: 18px;
+    /* line-height: 15px; */
+}
+.close_img{
+    width: 18px;
+    counter-reset: none;
+}
+.search_Box{
+    background-color: transparent;
+    border: none;
+    padding-left: 15px;
+    
+}
+.search_Box:hover{
+    height: 30px;
+    width: 300px;    
+}
+.sign_bag{
+    /* border: solid palegreen; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 40px;
+}
+.sign_btn{
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #E80071;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.sign_btn:hover{
+    cursor: pointer;
+    background-color: #e64985;
+}
+.bag_btn{
+    width: 20px;   
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+.bag_btn:hover{
+    cursor: pointer;
+}
+
+/* Navbar2 */
+
+.Navbar2_list{
+    width: 100%;
+    /* border: solid forestgreen; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 555;
+    color: rgb(85, 83, 83);
+    margin: 1px;
+}
+.Navbar2_list li:hover{
+    cursor: pointer;
+    color: #f7186d;
+}
+.offer{
+    width: 70px;
+    height: 40px;
+}
+.nav2{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+}
+
+/* middle */
+
+.container1{
+    /* border: solid brown; */
+    width: 99%;
+    display: flex;
+    gap: 13px;
+    padding: 14px 40px;
+    overflow: scroll;
+    /* position: absolute; */
+}
+.img0{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-top: 250px ;
+    margin-left: 1400px;
+    /* overflow: hidden; */
+}
+.img1{
+    width: 550px;
+    height: 500px;
+    border-radius: 12px;
+    overflow-x: none;
+}
+.img1:hover{
+    cursor: pointer;
+}
+
+.container2{
+    width: 95%;
+}
+.container2 img{
+    width: 100%;
+    /* border: solid red; */
+    margin: 20px 0 15px 40px;
+    border-radius: 12px;
+}
+.container2 img:hover{
+    cursor: pointer;
+}
+
+.container3{
+    width: 95%;
+}
+.container3 img{
+    /* border: solid blueviolet; */
+    width: 100%;
+    margin: 10px 0 20px 40px;
+    border-radius: 12px;
+}
+.container3 img:hover{
+    cursor: pointer;
+}
+
+.container4{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 5px 5px 20px 40px;
+    overflow: scroll;
+}
+.container4 img{
+    height: 350px;
+    gap: 100px;
+    border-radius: 12px;
+}
+.container4 img:hover{
+    cursor: pointer;
+}
+    
+.container5{
+    width: 95%;
+}
+.container5 img{
+    width: 100%;
+    margin: 50px 15px 20px 20px;
+    border-radius: 12px;
+}
+.container5 img:hover{
+    cursor: pointer;
+}
+
+.container6{
+    background-color: rgb(238, 240, 243);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 30px;
+}
+.content62{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+}
+.content62 img{
+    width: 500px;
+    margin: 30px 25px 20px 40px;
+    border-radius: 12px;
+    overflow: scroll;
+}
+.content62 img:hover{
+    cursor: pointer;
+}
+
+.container7{
+    width: 95%;
+}
+.container7 img{
+    width: 100%;
+    /* border: solid red; */
+    margin: 20px 0 15px 40px;
+    border-radius: 12px;
+}
+.container7 img:hover{
+    cursor: pointer;
+}
+
+.container8{
+    width: 95%;
+}
+.container8 img{
+    width: 500px;
+    margin: 30px 0 20px 40px;
+    border-radius: 12px;
+}
+.container8 img:hover{
+    cursor: pointer;
+}
+
+.container9{
+    width: 95%;
+    border: 1px solid rgb(225, 36, 124);
+    text-align: center;
+    font-family: Inter, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    height: 120px;
+    background-color: #eed1dc;
+    padding: 30px;
+    color: rgb(74, 73, 73);
+    border-radius: 12px;
+    margin: 40px;
+}
+
+.container10 h2{
+    font-family: Inter, Roboto, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 0 40px;
+}
+
+.footer11{
+    background-color: rgb(58, 64, 71);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Inter, Roboto, Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+}
+.mailbox{
+    width: 25px;
+    height: 25px;    
+}
+.sms{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: medium;
+}
+.emailId{
+    background: transparent;
+    height: 35px;
+    text-align: white;
+    padding: 10px;
+}
+.email button{
+    width: 60px;
+    height: 35px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+.email button:hover{
+    cursor: pointer;
+}
+.mob{
+    display: flex;    
+    gap: 10px;
+    align-items: center;
+    color: white;
+    font-size: small;
+}
+.gp_appStore{
+    gap: 50px;
+}
+.gp_appStore img{
+    width: 120px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0.5px solid white;
+}
+.call{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.call img{
+    width: 25px;
+    height: 25px;
+}
+.call_timing{
+    color: white;
+
+}
+.timing p{
+    margin-top: 0;
+    margin-left: 35px;
+}
+.footer12{
+    background-color: rgb(151, 151, 151);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 40px;
+}
+.footer12 .table1 img{
+    height: 60px;
+}
+.footer2{
+    background-color: rgb(246, 240, 246);
+}
+.footer2 .table1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 90px;
+}
+.footer2 .table1 .table11{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer2 .table1 .table12{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer2 .table1 .table13{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer2 .table1 .table14{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer2 .table2{
+    background-color: #f71068;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.table2 .table21 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+}
+.footer2 .table3{
+    padding: 10px 120px 100px ;
+    color: rgb(140, 141, 148);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, Roboto, Arial, sans-serif;
+}
+
+
+

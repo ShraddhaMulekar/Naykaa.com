@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-left: 550px;
+    padding: 0;
+    width: 30%;
+    background: transparent;
+}
+.cart_page{
+    border: 1px solid rgb(193, 186, 186);
+}
+.arrow_bag{
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+    gap: 10px;
+    font-family: Inter, sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.arrow_bag img{
+    width: 30px;
+}
+.arrow_bag img:hover{
+    cursor: pointer;
+}
+.arrow_bag button{
+    border: none;
+    background: transparent;
+}
+
+.LogInRegistered{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.LogInRegistered button{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: 1px solid rgb(87, 86, 86);
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(222, 54, 110);
+    font-weight: bold;
+}
+.LogInRegistered button:hover{
+    cursor: pointer;
+}
+.product_info{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img_info{
+    display: flex;
+    
+}
+.product_info img{
+    width: 200px;
+}
+.img_info info{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Inter, sans-serif;
+}
+.Qty_price{
+    border-top: 1px solid rgb(186, 183, 183);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.Price_detail{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Price_detail .bag1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    height: 30px;
+}
+.Price_detail .bag1:last-child{
+    font-weight: bold;
+}
+
+.proceed{
+    border-top: 1px solid rgb(203, 199, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}   
+.Amt_total{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.proceed_btn button{
+    width: 200px;
+    height: 35px;
+    background-color: rgb(219, 45, 103);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+}
+.proceed_btn button:hover{
+    cursor: pointer;
+}
