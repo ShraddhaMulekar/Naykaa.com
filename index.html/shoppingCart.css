@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* navigation bar  */
+#nav {
+    width: 100%;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250, 189, 200);
+  
+}
+.cartLogo img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+.NykaaLogo{
+  width: 90px;
+  height: 65px;
+}
+.cartImg{
+    position: relative;
+}
+.cartImg img {
+  /* border: solid; */
+  width: 50px;
+  height: 50px;
+}
+.cartImg sup {
+  background-color: rgb(152, 5, 86);
+  color: rgb(232, 228, 228);
+  border-radius: 70%;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 3px;
+  margin: 0px -30%;
+  position: absolute;
+}
+#text{
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+}
+#text img{
+  width: 100%;
+  height: 100%;
+}
+
+/* sorting and filtering data */
+#sort_filter{
+  margin: 15px;
+  height: 25px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+
+/* selected data */
+#selectCards {
+    width: 25%;
+    height: auto;
+    background-color: rgb(250, 189, 200);
+    overflow: scroll;
+  }
+#emptyCard{
+    display: block;
+    margin: 50px 40px;
+    font-weight: bolder;
+}
+#selectCard_container{
+    display: none;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#selectCard_container p{
+    font-size: 17px;
+    font-weight: 550;
+}
+#selectCard_container button{
+    display: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 5px;
+    background-color: rgb(207, 7, 114);
+}
+
+/* product data  */
+#product {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 1%;
+}
+#productCards {
+  width: 72%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 5px;
+  overflow: scroll;
+  /* border: solid; */
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  padding: 5px;
+  /* border: solid; */
+}
+.card img {
+  width: 40%;
+  /* border: solid rebeccapurple; */
+  margin-left: 100px;
+  padding: 5px;
+}
+.card h2,
+.card h3,
+.card h5 {
+  padding: 4px;
+  text-align: center;
+}
+.card button {
+  padding: 5px 10px;
+  margin: 10px 130px;
+  font-weight: bolder;
+  background-color: rgb(215, 229, 240);
+  border: solid 1px;
+  border-radius: 50px;
+}
+
+/* side added data */
+.addCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+.addCard img {
+    height: 60px;
+  width: 70px;
+  /* padding: 5px; */
+}
+.addCard h3 {
+  font-size: 200;
+}

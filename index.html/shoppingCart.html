@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Shoping Cart</title>
+    <link rel="stylesheet" href="shoppingCart.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="cartLogo">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Shopping_Cart_Flat_Icon_Vector.svg/2048px-Shopping_Cart_Flat_Icon_Vector.svg.png"
+          alt="logo"
+        />
+      </div>
+      <div>
+        <img class="NykaaLogo" src="https://i.postimg.cc/jjBBpNLb/nykaa.png" alt="logo">
+    </div>
+      <div id="text">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOhw-LnjHHUYXdzUcqsZL6XYpFBmLgM5-jHA&s" alt="new arrival">
+      </div>
+      <div class="cartImg">
+        <img
+          src="https://www.svgrepo.com/show/419033/cart-trolley-shop.svg"
+          alt="img"
+        />
+        <sup class="dynamicNum">0</sup>
+      </div>
+    </nav>
+    <div id="sort_filter">
+      <select name="" id="sort">
+        <option value="">Sort By Price</option>
+        <option value="descending">High to Low</option>
+        <option value="ascending">Low to High</option>
+      </select>
+
+      <select name="" id="filter">
+        <option value="defalt">Filter By Category</option>
+        <option value="women's clothing">women's clothing</option>
+        <option value="men's clothing">men's clothing</option>
+        <option value="jewelery">jewelery</option>
+        <option value="electronics">electronics</option>
+      </select>
+    </div>
+    <div id="product">
+      <div id="selectCards">
+        <div id="emptyCard">
+            <h2 class="emptyCard">Your Card Item Empty</h2>
+        </div>
+        <div id="selectCard_container">
+          <p id="totalCount"></p>
+          <button id="CheckOutBtn"><a href="./checkout.html">CheckOut</a></button>
+        </div>
+      </div>
+      <div id="productCards"></div>
+    </div>
+  </body>
+  <script src="shoppingCart.js"></script>
+</html>
