@@ -81,7 +81,7 @@ let displayProduct = function(data){
                     currentVal.splice(index, 1, 0); // Remove the price
                 }
                 let decPrice = currentVal.reduce((acc, cur)=>{
-                    return acc - cur;
+                    return acc + cur;
                 }, 0)
                 totalCount.innerHTML = `Total Count: $${decPrice}`;
                 addCard.remove()

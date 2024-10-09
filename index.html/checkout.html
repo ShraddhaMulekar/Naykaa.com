@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="checkout.css">
-</head>
-<body>
-    <div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckOut Form</title>
+    <link rel="stylesheet" href="checkout.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div>
         <h1>Check Out Form</h1>
+      </div>
+      <div class="inputContainer">
+        <form id="form">
+          <input
+            class="input"
+            id="name"
+            type="text"
+            placeholder="Enter your Name"
+          />
+          <input
+            class="input"
+            id="email"
+            type="email"
+            placeholder="Enter your Email Id"
+          />
+          <input
+            class="input"
+            id="mobNum"
+            type="number"
+            placeholder="Enter your Mobile Number"
+          />
+          <input
+            class="input"
+            id="address"
+            type="text"
+            placeholder="Enter your Shipping Address"
+          />
+        </form>
+      </div>
+      <div id="btnContainer">
+        <button class="home" id="home">🔙Home</button>
+        <button class="home" id="submit">Submit</button>
+      </div>
     </div>
-</body>
-<script src="checkout.js"></script>
+  </body>
+  <script src="checkout.js"></script>
 </html>
